@@ -1,0 +1,24 @@
+khudjamirakov-app-pro-09092006/
+├─ package.json
+├─ server.js
+├─ knexfile.js
+├─ Dockerfile
+├─ docker-compose.yml
+├─ render.yaml
+├─ setup-and-run.sh
+├─ .env.example
+├─ migrations/
+│   ├─ 20250813_init.js
+│   └─ 20250813_attendance_payroll.js
+├─ seeds/
+│   ├─ 01_admin_user.js
+│   └─ 02_more_users.js
+├─ views/
+│   ├─ partials/
+│   │   ├─ header.ejs
+│   │   └─ footer.ejs
+│   ├─ home.ejs, login.ejs, signup.ejs, dashboard.ejs, ...
+│   └─ attendance.ejs, payroll.ejs, admin_user_edit.ejs
+├─ public/
+│   └─ app.js
+└─ README.md
